@@ -7,7 +7,7 @@ if (isset($_GET["id"])) {
     $id = $_GET["id"];
 
 
-                $query = 'DELETE * FROM SALA_REMOTA WHERE id='.$id;
+                $query = 'DELETE FROM SALA_REMOTA WHERE id_sala_remota='.$id;
                 $conexion->query($query) or die(mysqli_error($conexion));
 }
 
