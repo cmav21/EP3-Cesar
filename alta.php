@@ -9,7 +9,7 @@ if (isset($_GET["nom"])) {
     $telefono = $_GET["tel"];
     $email = $_GET["mail"];
     $ip = $_GET["ip"];
-    $isdn = $_GET["isdn"];
+    $isdn = isset($_GET["isdn"]) ? $_GET["isdn"] : ' ';
     $servicios = $_GET["servicios"];
     
     
