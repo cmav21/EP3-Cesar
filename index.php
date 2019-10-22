@@ -26,7 +26,6 @@ error_reporting(E_ALL);
     <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/sb-admin-2.css" rel="stylesheet">
  
 
 </head>
@@ -51,7 +50,7 @@ require "cfg/conexion.php";
    echo "<td>". $dato['telefono']."</td>";
    echo "<td>". $dato ['email_responsable']."</td>";
    echo "<td>". $dato ['ip']."</td>";
-   echo "<td>". $dato ['isdn']."</td>";
+   echo "<td>". $dato['isdn']."</td>";
    echo "<td><a href='editarSala.php?id=". $dato ['id_sala_remota']."'>Editar</a></td>";
    echo "<td><a href='eliminarSala.php?id=". $dato ['id_sala_remota']."'>Eliminar</a></td>";
    echo "</tr>";
@@ -61,15 +60,5 @@ require "cfg/conexion.php";
    <button type="button" class="btn btn-success" onclick="window.location.href='sala_remota.html'">Agregar Sala</button>
    </div>
     <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="../.js/sb-admin-2.js"></script>
 
 </body>
