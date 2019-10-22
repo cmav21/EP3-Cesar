@@ -26,7 +26,6 @@ error_reporting(E_ALL);
     <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
- 
 
 </head>
 
